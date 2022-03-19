@@ -33,16 +33,12 @@ const Home = ({ darkMode }) => {
 
               
 <Container align="center"><Col lg={15} align="center">
-<div align="center" class="text-secondary" >  
-<div align="center" class="lead">
- 
-            <h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
-           
-</div>
+<div align="center" class="lead"><h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
+</Col> 
+</Container>
 
-             </Col> 
-  </Container>
- </AttentionSeeker>
+
+</AttentionSeeker>
 
 </div>
 
