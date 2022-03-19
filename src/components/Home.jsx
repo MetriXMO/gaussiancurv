@@ -14,7 +14,7 @@ const Home = ({ darkMode }) => {
     return ( <div>
         <div id="particles-js">
        <div class="header">
-            <AttentionSeeker effect="pulse" align="center">  <div class="header">
+          
              
 <Particles />
                    
@@ -37,7 +37,7 @@ const Home = ({ darkMode }) => {
 
 
 
-</AttentionSeeker>
+
 </div>
 </div>
 
