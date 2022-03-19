@@ -18,6 +18,7 @@ const Home = ({ darkMode }) => {
             
         <div id="particles-js" align="center"> 
        <div class="header"> 
+            <Container align="center">
         <AttentionSeeker effect="pulse">  
               
    <Particles />
@@ -36,7 +37,7 @@ const Home = ({ darkMode }) => {
               
 
               
-<Container align="center"><Col lg={16} align="center">
+<Col lg={16} align="center">
 <div align="center" class="text-secondary" >  
 <div align="center" class="lead">
  
