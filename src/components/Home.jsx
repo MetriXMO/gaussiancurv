@@ -22,7 +22,7 @@ const Home = ({ darkMode }) => {
         <AttentionSeeker effect="pulse">  
               
    <Particles />
-                    <Col lg={16} xs={16}>
+                    <Col>
      
                         <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
                         <h2 className="lead" align="center">
@@ -37,7 +37,7 @@ const Home = ({ darkMode }) => {
               
 
               
-<Col lg={16} align="center">
+<Col>
 <div align="center" class="text-secondary" >  
 <div align="center" class="lead">
  
