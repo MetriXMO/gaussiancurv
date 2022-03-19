@@ -14,8 +14,13 @@ const Home = ({ darkMode }) => {
             
         <div id="particles-js" align="center"> 
        <div class="header"> 
-          <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
-                <Particles/>        <h2 className="lead" align="center">
+        <AttentionSeeker effect="pulse">  
+                <Row>  
+   <Particles />
+                    <Col lg={16} xs={16}>
+     
+                        <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
+                        <h2 className="lead" align="center">
                             <span class="txt-rotate"
                                 data-period="2000"
                                 data-rotate='[ "Time", " Has Came", " To Check The Other Side Of", "Mathematics" ]'>
@@ -23,13 +28,21 @@ const Home = ({ darkMode }) => {
                             </span>
 
                         </h2>  
-             
-                
+                 </Col>   
+                </Row>
 
               
-
-<div align="center" class="lead"><h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
-
+<Container align="center"><Col lg={16} align="center">
+<div align="center" class="text-secondary" >  
+<div align="center" class="lead">
+ 
+            <h5 align="center"> GC has turned over one year, check out <FooterLink  href="https://artofproblemsolving.com/community/c5h2766985p24238194"><h5>OPMC</h5></FooterLink>  </h5> </div> 
+           
+</div>
+ 
+              </Col> 
+  </Container>
+ </AttentionSeeker>
 
 
 
