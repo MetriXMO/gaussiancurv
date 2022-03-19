@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
-import { AttentionSeeker } from 'react-awesome-reveal';
 import { MagicalButton, Flex, Mdark } from './stylee';
 
 const Home = ({ darkMode }) => {
