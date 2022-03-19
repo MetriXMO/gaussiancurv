@@ -17,7 +17,7 @@ const Home = ({ darkMode }) => {
             <AttentionSeeker effect="pulse">  
                 <Row>  
    <Particles />
-                    <Col lg={12} xs={12}>
+                   
      
                         <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
                         <h2 className="lead" align="center">
@@ -28,14 +28,13 @@ const Home = ({ darkMode }) => {
                             </span>
 
                         </h2>  
-                 </Col>   
+             
                 </Row>
 
               
-<Container align="center"><Col lg={15} align="center">
+
 <div align="center" class="lead"><h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
-</Col> 
-</Container>
+
 
 
 </AttentionSeeker>
