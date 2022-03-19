@@ -1,4 +1,4 @@
-import Particles from "../components/particles";
+
 
 [data-theme="dark"] {
   
@@ -238,7 +238,7 @@ strong, .with{
 
 
 #particles-js {
-  <Particles/>";
+
   
     background: #1488CC;
     /* fallback for old browsers */
