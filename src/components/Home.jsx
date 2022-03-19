@@ -39,13 +39,17 @@ const Home = ({ darkMode }) => {
             <h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
            
 </div>
+
+             </Col> 
+  </Container>
+ </AttentionSeeker>
+
 </div>
+
 
 <div>
  
-              </Col> 
-  </Container>
- </AttentionSeeker>
+ 
          
 
             <br></br>
