@@ -12,10 +12,10 @@ const Home = ({ darkMode }) => {
 
     return ( <div>
         <div id="particles-js">
-       <div class="header">
+       <div class="header" Particles>
           
              
-<Particles />
+
                    
      
                         <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
