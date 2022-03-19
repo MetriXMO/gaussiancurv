@@ -13,10 +13,10 @@ const Home = ({ darkMode }) => {
 
     return ( <div>
         <div id="particles-js">
-       <Particles />
-            <AttentionSeeker effect="pulse" align="center">  
+       <div class="header">
+            <AttentionSeeker effect="pulse" align="center">  <div class="header">
              
-
+<Particles />
                    
      
                         <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
@@ -38,7 +38,7 @@ const Home = ({ darkMode }) => {
 
 
 </AttentionSeeker>
-
+</div>
 </div>
 
 
