@@ -46,9 +46,9 @@ const Home = ({ darkMode }) => {
 </div>
  
               </Col> 
-  </Container>
+ 
  </AttentionSeeker>
-
+ </Container>
 
 
 </div>
