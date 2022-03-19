@@ -12,7 +12,7 @@ const Home = ({ darkMode }) => {
 
     return ( <div>
         <div id="particles-js">
-       <div class="header" Particles>
+       <div class="header"> <Particles>
           
              
 
@@ -33,7 +33,7 @@ const Home = ({ darkMode }) => {
               
 
 <div align="center" class="lead"><h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
-
+</Particles>
 
 
 
