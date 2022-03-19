@@ -47,14 +47,14 @@ const Home = ({ darkMode }) => {
 </div>
 
 
-<div>
+
  
  
          
 
             <br></br>
            
-      <Container align='left'> <Row>
+   <div>   <Container align='left'> <Row>
             <Col lg={15} align='left'>
           <Card className="skill-nbcard">   
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
