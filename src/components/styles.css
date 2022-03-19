@@ -1,3 +1,5 @@
+import Particles from "../components/particles";
+
 [data-theme="dark"] {
   
      --bg-color: #ffffff;
@@ -236,6 +238,8 @@ strong, .with{
 
 
 #particles-js {
+  <Particles/>";
+  
     background: #1488CC;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
