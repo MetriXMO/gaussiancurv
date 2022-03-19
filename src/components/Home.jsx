@@ -11,7 +11,7 @@ const Home = ({ darkMode }) => {
  
 
 
-    return (
+    return ( <div>
         <div id="particles-js">
     
             <AttentionSeeker effect="pulse">  
@@ -50,7 +50,7 @@ const Home = ({ darkMode }) => {
 
             <br></br>
            
-   <div>   <Container align='left'> <Row>
+   <Container align='left'> <Row>
             <Col lg={15} align='left'>
           <Card className="skill-nbcard">   
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
