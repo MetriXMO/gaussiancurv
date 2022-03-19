@@ -19,7 +19,7 @@ const Home = ({ darkMode }) => {
         <div id="particles-js" align="center"> 
        <div class="header"> 
         <AttentionSeeker effect="pulse">  
-                <Row>  
+              
    <Particles />
                     <Col lg={16} xs={16}>
      
@@ -33,7 +33,7 @@ const Home = ({ darkMode }) => {
 
                         </h2>  
                  </Col>   
-                </Row>
+              
 
               
 <Container align="center"><Col lg={16} align="center">
