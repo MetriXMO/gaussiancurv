@@ -6,6 +6,9 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
+import {
+ FooterLink,
+} from "./FooterStyles";
 
 const Home = ({ darkMode }) => {
  
