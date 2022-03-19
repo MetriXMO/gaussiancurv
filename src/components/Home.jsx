@@ -1,7 +1,7 @@
 import { React } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Particles from "../components/particles";
+
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
@@ -12,7 +12,7 @@ const Home = ({ darkMode }) => {
 
     return ( <div>
         <div id="particles-js">
-       <div class="header"> <Particles>
+       <div class="header"> 
           
              
 
@@ -33,7 +33,7 @@ const Home = ({ darkMode }) => {
               
 
 <div align="center" class="lead"><h5 align="center"> GIMO 2022 is our next contest, so stay tuned  </h5> </div> 
-</Particles>
+
 
 
 
