@@ -1,7 +1,7 @@
 import { React } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
@@ -11,14 +11,9 @@ const Home = ({ darkMode }) => {
 
 
     return ( <div>
-        <div id="particles-js">
+        <div id="particles-js"> <Particles/>
        <div class="header"> 
-          
-             
-
-                   
-     
-                        <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
+          <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
                         <h2 className="lead" align="center">
                             <span class="txt-rotate"
                                 data-period="2000"
