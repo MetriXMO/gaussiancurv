@@ -1,6 +1,7 @@
 import { React } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { AttentionSeeker } from 'react-awesome-reveal';
 import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
