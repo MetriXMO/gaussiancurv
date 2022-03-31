@@ -1,8 +1,7 @@
 import { React } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-#import { #AttentionSeeker } #from 'react-awesome-reveal';
-#import #Particles #from "../components/particles";
+
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
@@ -19,9 +18,7 @@ const Home = ({ darkMode }) => {
         <div id="particles-js" 
        <div class="header"> 
             <Container align="center">
-        <#AttentionSeeker #effect="pulse">  
-              
-   <#Particles />
+      
                  
       <span class="site-title">Gaussian Curvature</span>
                        
