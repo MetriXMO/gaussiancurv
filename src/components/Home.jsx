@@ -23,7 +23,7 @@ const Home = ({ darkMode }) => {
       <span class="site-title">Gaussian Curvature</span>
                        
                       
-                 
+                 </div>
 
               
 <Col>
@@ -40,7 +40,6 @@ const Home = ({ darkMode }) => {
  </Container>
 
 
-</div>
 </div>
 
 
