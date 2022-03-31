@@ -5,7 +5,7 @@ import options from "../config/particles.json";
 const Particles = () => {
     return (
         <div className="particle-container">
-            <ReactParticles options={options} height={"91vh"} />
+            <ReactParticles options={options} height={"50vh"} />
         </div>
     );
 };
