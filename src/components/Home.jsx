@@ -1,7 +1,7 @@
 import { React } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
@@ -19,7 +19,7 @@ const Home = ({ darkMode }) => {
        
            
       <div class="header">
-                 
+               <Particles/>  
       <span class="site-title">Gaussian Curvature</span>
                     <span class="site-description">GC has turned over one year, check out <FooterLink  href="https://artofproblemsolving.com/community/c5h2766985p24238194"><h5>OPMC</h5></FooterLink>  </span>   
                      </div> 
