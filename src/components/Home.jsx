@@ -1,8 +1,8 @@
 import { React } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { AttentionSeeker } from 'react-awesome-reveal';
-import Particles from "../components/particles";
+#import { #AttentionSeeker } #from 'react-awesome-reveal';
+#import #Particles #from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
@@ -16,25 +16,17 @@ const Home = ({ darkMode }) => {
 
     return ( <div>
             
-        <div id="particles-js" align="center"> 
+        <div id="particles-js" 
        <div class="header"> 
             <Container align="center">
-        <AttentionSeeker effect="pulse">  
+        <#AttentionSeeker #effect="pulse">  
               
-   <Particles />
-                    <Col>
-     
-                        <h2 className="display-3 hello" align="center"><b>  Gaussian Curvature </b> </h2>
-                        <h2 className="lead" align="center">
-                            <span class="txt-rotate"
-                                data-period="2000"
-                                data-rotate='[ "Time", " Has Came", " To Check The Other Side Of", "Mathematics" ]'>
-                            <br></br>    
-                            </span>
-
-                        </h2>  
-                 </Col>   
-              
+   <#Particles />
+                 
+      <span class="site-title">Gaussian Curvature</span>
+                       
+                      
+                 
 
               
 <Col>
