@@ -250,7 +250,7 @@ strong, .with{
     display: flex;
     vertical-align: bottom;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed
@@ -278,7 +278,7 @@ strong, .with{
 }
 
 .header .site-title {
-    font-size: 25px;
+    font-size: 20px;
     display: block;
     line-height: 1;
     color: #fff;
@@ -291,7 +291,7 @@ strong, .with{
     }
 }
 header .site-description {
-    font-size: 20px;
+    font-size: 10px;
     display: block;
     line-height: 1;
     color: #fff;
