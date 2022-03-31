@@ -22,13 +22,13 @@ const Home = ({ darkMode }) => {
                
       <span class="site-title">Gaussian Curvature</span>
                     <span class="site-description">GC has turned over one year, check out <FooterLink  href="https://artofproblemsolving.com/community/c5h2766985p24238194"><h5>OPMC</h5></FooterLink>  </span>   
-                     </div> 
+                   <Particles/>       </div> 
             <Col>
 <div align="center" class="text-secondary" >  
 <div align="center" class="lead">
  
 
-                <Particles/>  
+             
 </div>
   </div>
 
@@ -47,7 +47,7 @@ const Home = ({ darkMode }) => {
 
 
  
- 
+ <div>
          
 
             <br></br>
@@ -68,6 +68,7 @@ const Home = ({ darkMode }) => {
             </Col>
  
             </Row>    </Container> &nbsp;   
+        </div>
        </div>
     )
 }
