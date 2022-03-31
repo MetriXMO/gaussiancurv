@@ -13,7 +13,7 @@ const Home = ({ darkMode }) => {
  
 
 
-    return ( <Particles/><div>
+    return ( <div> <Particles/>
          
         <div id="particles-js">
           
