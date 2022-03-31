@@ -15,7 +15,7 @@ const Home = ({ darkMode }) => {
 
     return ( <div>
             
-        <div id="particles-js" >
+        <div id="particles-js">
        
            
       <div class="header">
