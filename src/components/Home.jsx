@@ -16,14 +16,14 @@ const Home = ({ darkMode }) => {
     return ( <div>
             
         <div id="particles-js" 
-       <div class="header"> 
+       
            
       
                  
       <span class="site-title">Gaussian Curvature</span>
                        
                       
-                 </div>
+                
 </div>
 
               
