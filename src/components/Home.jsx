@@ -17,13 +17,14 @@ const Home = ({ darkMode }) => {
             
         <div id="particles-js" 
        <div class="header"> 
-            <Container align="center">
+           
       
                  
       <span class="site-title">Gaussian Curvature</span>
                        
                       
                  </div>
+</div>
 
               
 <Col>
@@ -34,14 +35,14 @@ const Home = ({ darkMode }) => {
            
 </div>
  
-              </Col> 
+            
  
- </AttentionSeeker>
- </Container>
+ 
+
 
 
 </div>
-
+  </Col> 
 
 
  
