@@ -248,14 +248,18 @@ strong, .with{
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
-    width: 80%;
-    top: 50%;
-    left: 50%;
-    margin: 0 auto;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
     
 }
-
+#particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important
+}
 
 
 
