@@ -17,7 +17,7 @@ const Home = ({ darkMode }) => {
          
         <div id="particles-js">
          
-       <div>  <Particles/>
+       <div class="lead">  <Particles/>
       <div class="header">
                
       <span class="site-title">Gaussian Curvature</span>
