@@ -16,14 +16,14 @@ const Home = ({ darkMode }) => {
     return ( <div>
          
         <div id="particles-js">
-           <Particles/>
-       
+         
+       <div>  <Particles/>
       <div class="header">
                
       <span class="site-title">Gaussian Curvature</span>
                     <span class="site-description">GC has turned over one year, check out <FooterLink  href="https://artofproblemsolving.com/community/c5h2766985p24238194"><h5>OPMC</h5></FooterLink>  </span>   
                        </div> 
-          
+          </div>
               
 </div>
 
