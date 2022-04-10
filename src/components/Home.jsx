@@ -10,7 +10,7 @@ import Tab from 'react-bootstrap/Tab'
 import TabContainer from 'react-bootstrap/TabContainer'
 import TabContent from 'react-bootstrap/TabContent'
 import TabPane from 'react-bootstrap/TabPane'
-let { Tab, Tabs } = ReactBootstrap;
+
 
 class MyComponent extends React.Component {
   constructor(props) {
@@ -88,7 +88,32 @@ const Home = ({ darkMode }) => {
            <Tab eventKey="contact" title="Contact" >
            hello
            </Tab>
-           </Tabs><br></br>
+           </Tabs>
+
+
+
+
+
+  
+  handleSelect(selectedTab) {
+    // The active tab must be set into the state so that
+    // the Tabs component knows about the change and re-renders.
+    this.setState({
+      activeTab: selectedTab
+    });
+  }
+}
+
+ReactDOM.render(
+  <MyComponent activeTab={2} />,
+  document.getElementsByClassName('root')[0]
+);
+
+
+
+
+
+<br></br>
 The Gaussian Curvature team consists of Math Olympiad students who enjoy Mathematics to a great extent. We aim to help others discover their love for Mathematics beyond the school syllabus, and to develop their passion for problem-solving. Through our training materials and contests, we hope to help those who have a keen interest in Math Olympiad excel.
 <br></br>
 <br></br>   <Flex>
