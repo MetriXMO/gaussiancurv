@@ -78,7 +78,7 @@ const Home = ({ darkMode }) => {
            <Tab eventKey="contact" title="Contact" >
            hello
            </Tab>
-           </Tabs
+           </Tabs>
 
 
 
