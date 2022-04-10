@@ -67,7 +67,7 @@ const Home = ({ darkMode }) => {
                                 <Card.Body>
                                    
                                     <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-           <Tab eventKey="home" class="lead" title="Home">
+           <Tab eventKey="home" variant="secondary" title="Home">
                 Hello India
            </Tab>
            <Tab eventKey="profile" title="Profile">
