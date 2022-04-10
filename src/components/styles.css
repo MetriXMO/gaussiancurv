@@ -263,6 +263,17 @@ strong, .with{
 
 
 
+.leader {
+    z-index: 1;
+    
+    color: #fff;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
 .header {
     z-index: 1;
     text-align: center;
