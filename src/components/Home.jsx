@@ -12,16 +12,7 @@ import TabContent from 'react-bootstrap/TabContent'
 import TabPane from 'react-bootstrap/TabPane'
 
 
-class MyComponent extends React.Component {
-  constructor(props) {
-    super();
-    this.state = {
-      // Takes active tab from props if it is defined there
-      activeTab: props.activeTab || 1
-    };
-    
-    // Bind the handleSelect function already here (not in the render function)
-    this.handleSelect = this.handleSelect.bind(this);
+Select = this.handleSelect.bind(this);
   }
 
 const Home = ({ darkMode }) => {
@@ -88,27 +79,7 @@ const Home = ({ darkMode }) => {
            <Tab eventKey="contact" title="Contact" >
            hello
            </Tab>
-           </Tabs>
-
-
-
-
-
-  
-  handleSelect(selectedTab) {
-    // The active tab must be set into the state so that
-    // the Tabs component knows about the change and re-renders.
-    this.setState({
-      activeTab: selectedTab
-    });
-  }
-}
-
-ReactDOM.render(
-  <MyComponent activeTab={2} />,
-  document.getElementsByClassName('root')[0]
-);
-
+           </Tabs
 
 
 
