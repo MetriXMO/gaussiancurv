@@ -12,8 +12,7 @@ import TabContent from 'react-bootstrap/TabContent'
 import TabPane from 'react-bootstrap/TabPane'
 
 
-Select = this.handleSelect.bind(this);
-  }
+
 
 const Home = ({ darkMode }) => {
  
