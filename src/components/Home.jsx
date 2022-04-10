@@ -49,18 +49,7 @@ const Home = ({ darkMode }) => {
             
             
             
-            <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-  <Tab eventKey="home" title="Home">
-   Hello India
-  </Tab>
-  <Tab eventKey="profile" title="Profile">
- wh
-  </Tab>
-  <Tab eventKey="contact" title="Contact" >
-   hello
-  </Tab>
-</Tabs>
-            
+           
             
             
             
@@ -69,9 +58,7 @@ const Home = ({ darkMode }) => {
            
    <Container align='left'> <Row>
             <Col lg={15} align='left'>
-          <Card className="skill-nbcard">     
-           
-           <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+       <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
            <Tab eventKey="home" title="Home">
                 Hello India
            </Tab>
@@ -82,6 +69,9 @@ const Home = ({ darkMode }) => {
            hello
            </Tab>
            </Tabs>
+          <Card className="skill-nbcard">     
+           
+         
 
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
