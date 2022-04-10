@@ -10,7 +10,19 @@ import Tab from 'react-bootstrap/Tab'
 import TabContainer from 'react-bootstrap/TabContainer'
 import TabContent from 'react-bootstrap/TabContent'
 import TabPane from 'react-bootstrap/TabPane'
+let { Tab, Tabs } = ReactBootstrap;
 
+class MyComponent extends React.Component {
+  constructor(props) {
+    super();
+    this.state = {
+      // Takes active tab from props if it is defined there
+      activeTab: props.activeTab || 1
+    };
+    
+    // Bind the handleSelect function already here (not in the render function)
+    this.handleSelect = this.handleSelect.bind(this);
+  }
 
 const Home = ({ darkMode }) => {
  
@@ -66,7 +78,7 @@ const Home = ({ darkMode }) => {
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
                                    
-                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs className="myClass" activeKey={this.state.activeTab} onSelect={this.handleSelect}>
            <Tab eventKey="home" variant="secondary" title="Home">
                 Hello India
            </Tab>
