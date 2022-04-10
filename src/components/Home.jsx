@@ -69,7 +69,7 @@ const Home = ({ darkMode }) => {
                                 <Card.Body>
                                    
                                     <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs className="myClass" activeKey={this.state.activeTab} onSelect={this.handleSelect}>
-           <Tab eventKey="home" variant="secondary" title="Home">
+           <Tab eventKey="home" title="Home">
                 Hello India
            </Tab>
            <Tab eventKey="profile" title="Profile">
