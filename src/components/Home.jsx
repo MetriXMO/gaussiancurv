@@ -58,7 +58,15 @@ const Home = ({ darkMode }) => {
            
    <Container align='left'> <Row>
             <Col lg={15} align='left'>
-       <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+     
+          <Card className="skill-nbcard">     
+           
+         
+
+                <Card.Header><div class= "lead" >About Us</div></Card.Header>
+                                <Card.Body>
+                                   
+                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
            <Tab eventKey="home" title="Home">
                 Hello India
            </Tab>
@@ -68,15 +76,8 @@ const Home = ({ darkMode }) => {
            <Tab eventKey="contact" title="Contact" >
            hello
            </Tab>
-           </Tabs>
-          <Card className="skill-nbcard">     
-           
-         
-
-                <Card.Header><div class= "lead" >About Us</div></Card.Header>
-                                <Card.Body>
-                                   
-                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}> The Gaussian Curvature team consists of Math Olympiad students who enjoy Mathematics to a great extent. We aim to help others discover their love for Mathematics beyond the school syllabus, and to develop their passion for problem-solving. Through our training materials and contests, we hope to help those who have a keen interest in Math Olympiad excel.
+           </Tabs><br></br>
+The Gaussian Curvature team consists of Math Olympiad students who enjoy Mathematics to a great extent. We aim to help others discover their love for Mathematics beyond the school syllabus, and to develop their passion for problem-solving. Through our training materials and contests, we hope to help those who have a keen interest in Math Olympiad excel.
 <br></br>
 <br></br>   <Flex>
        {darkMode? <MagicalButton href="">Details</MagicalButton> : <Mdark href="">About Us</Mdark> }
