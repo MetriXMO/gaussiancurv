@@ -5,9 +5,7 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
-import {
- FooterLink,
-} from "./FooterStyles";
+
 
 const Home = ({ darkMode }) => {
  
@@ -21,7 +19,7 @@ const Home = ({ darkMode }) => {
       <div class="header">
                 
       <span class="site-title">Gaussian Curvature</span>
-                    <span class="site-description">GC has turned over one year, check out <FooterLink  href="https://artofproblemsolving.com/community/c5h2766985p24238194"><h5>OPMC</h5></FooterLink>  </span>   
+                    <span class="site-description"></span>   
                        </div> 
         
               
