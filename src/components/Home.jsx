@@ -69,7 +69,20 @@ const Home = ({ darkMode }) => {
            
    <Container align='left'> <Row>
             <Col lg={15} align='left'>
-          <Card className="skill-nbcard">   
+          <Card className="skill-nbcard">     
+           
+           <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+           <Tab eventKey="home" title="Home">
+                Hello India
+           </Tab>
+           <Tab eventKey="profile" title="Profile">
+              Well Well
+           </Tab>
+           <Tab eventKey="contact" title="Contact" >
+           hello
+           </Tab>
+           </Tabs>
+
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
                                    
