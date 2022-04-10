@@ -68,7 +68,7 @@ const Home = ({ darkMode }) => {
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
                                    
-                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs className="myClass" activeKey={this.state.activeTab} onSelect={this.handleSelect}>
+                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs>
            <Tab eventKey="home" title="Home">
                 Hello India
            </Tab>
