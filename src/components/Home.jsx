@@ -5,6 +5,10 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
+import Tabs from 'react-bootstrap/Tabs'
+import TabContainer from 'react-bootstrap/TabContainer'
+import TabContent from 'react-bootstrap/TabContent'
+import TabPane from 'react-bootstrap/TabPane'
 
 
 const Home = ({ darkMode }) => {
@@ -37,7 +41,30 @@ const Home = ({ darkMode }) => {
  <div>
          
 
+            
             <br></br>
+            
+            
+            
+            
+            
+            <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+  <Tab eventKey="home" title="Home">
+   Hello India
+  </Tab>
+  <Tab eventKey="profile" title="Profile">
+ wh
+  </Tab>
+  <Tab eventKey="contact" title="Contact" >
+   hello
+  </Tab>
+</Tabs>
+            
+            
+            
+            
+               <br></br>
+           
            
    <Container align='left'> <Row>
             <Col lg={15} align='left'>
