@@ -5,11 +5,7 @@ import Particles from "../components/particles";
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import { MagicalButton, Flex, Mdark } from './stylee';
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
-import TabContainer from 'react-bootstrap/TabContainer'
-import TabContent from 'react-bootstrap/TabContent'
-import TabPane from 'react-bootstrap/TabPane'
+
 
 
 
@@ -68,19 +64,7 @@ const Home = ({ darkMode }) => {
                 <Card.Header><div class= "lead" >About Us</div></Card.Header>
                                 <Card.Body>
                                    
-                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>   <Tabs>
-           <Tab eventKey="home" title="Home">
-                Hello India
-           </Tab>
-           <Tab eventKey="profile" title="Profile">
-              Well Well
-           </Tab>
-           <Tab eventKey="contact" title="Contact" >
-           hello
-           </Tab>
-           </Tabs>
-
-
+                                    <Card.Text align="left" class={darkMode? "text-secondary" : "text-light"}>  
 
 
 <br></br>
