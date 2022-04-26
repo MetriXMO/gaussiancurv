@@ -19,7 +19,7 @@ export const MagicalButton = styled.a`
   }
   &:first-child {
     margin-right: 1rem;
-    background: #f9f9f9;
+    background: #003cff;
     color: #00c3ff;
     box-shadow: rgb(185, 185, 185) 0px 13px 19px -6px;
     &:hover {
